@@ -30,7 +30,7 @@ Details :
   fold(
     int,                             // return type
     int,                             // array element type
-    ((int[5]){1,2,3,4,5}),           // array name (or here implicite declaration)
+    ((int[5]){1,2,3,4,5}),           // array name (implicit declaration here)
     5,                               // number of element in the array
     {return acc+value+nested_value;} // code for each element ("value") and accumulator ("acc")
     ,0                               // initial value of acc
