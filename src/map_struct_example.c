@@ -1,3 +1,28 @@
+/**
+ * @file map_array_example.c
+ * @brief Example of using the map function with an array in LambdaCraft.
+ *
+ * Copyright (C) 2023 Gilles Grimaud
+ *
+ * This file is part of LambdaCraft.
+ *
+ * LambdaCraft is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * LambdaCraft is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with LambdaCraft. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * Contributors:
+ * - Gilles Grimaud <gilles.grimaud.code@gmail.com>
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "lambda.h"

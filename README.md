@@ -14,13 +14,32 @@ code for operations on arrays and linked structures.
 
 Copy/Include the `lambda.h` header file in your project.
 
+**Simple fold usage with array :**
+
 ```c
 #include "lambda.h"
+
+int main() {
+  int nested_value=1;
+  return fold(int,int,((int[5]){1,2,3,4,5}),5,{return acc+value+nested_value;},0);
+}
+```
+
+Details :
+```c
+  fold(
+    int,                             // return type
+    int,                             // array element type
+    ((int[5]){1,2,3,4,5}),           // array name (or here implicite declaration)
+    5,                               // number of element in the array
+    {return acc+value+nested_value;} // code for each element ("value") and accumulator ("acc")
+    ,0                               // initial value of acc
+  );
 ```
 
 ## Examples
 
-Examples demonstrating the power and usage of the provided constructs can be found in:
+Examples demonstrating usage of the provided constructs can be found in `src/`:
 
 - `fold_array_example.c`
 - `fold_struct_example.c`
@@ -33,7 +52,8 @@ Use the provided Makefile to compile the examples:
 
 ``make all``
 
-The project REQUIRES the GCC compiler (tested with version 13.2.0) using the gnu99 standard; Clang is not supported.
+The project REQUIRES the GCC compiler (tested with version 13.2.0) using the gnu99 standard 
+(option `-std=gnu99`) ; Clang is not supported.
 
 ## Understanding Lambda Functions in C with LambdaCraft
 
@@ -129,6 +149,8 @@ The deeper the nesting, the more pronounced this overhead becomes.
 
 ## License
 
-This project is licensed under the LGPLv3. Please see the header of the source files for 
-detailed information
+Copyright (C) 2023 Gilles Grimaud
+
+This project is licensed under the LGPLv3. Please see the file LICENSE and the header of the 
+source files for detailed information
 

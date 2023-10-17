@@ -1,5 +1,4 @@
-
-CC = gcc
+CC = /usr/local/bin/gcc-13 
 CFLAGS = -Wall -Wextra -Wno-unused-parameter -std=gnu99 -I ./
 SRCDIR = src
 BUILDDIR = build

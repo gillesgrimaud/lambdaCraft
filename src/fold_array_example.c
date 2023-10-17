@@ -20,7 +20,7 @@
  * along with LambdaCraft. If not, see <https://www.gnu.org/licenses/>.
  *
  * Contributors:
- * - Gilles Grimaud <[Votre email]>
+ * - Gilles Grimaud <gilles.grimaud.code@gmail.com>
  */
 
 #include <stdio.h>

@@ -23,7 +23,7 @@
  * along with LambdaCraft. If not, see <https://www.gnu.org/licenses/>.
  *
  * Contributors:
- * - Gilles.Grimaud <gg.code@gmail.com>
+ * - Gilles.Grimaud <gilles.grimaud.code@gmail.com>
  */
 
 #ifndef _lambda_h

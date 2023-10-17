@@ -2,7 +2,7 @@
  * @file linked_list_fold_example.c
  * @brief Example demonstrating the use of fold_s function with linked lists in LambdaCraft.
  *
- * Copyright (C) 2023 [Your Name or Your Organization's Name]
+ * Copyright (C) 2023 Gilles Grimaud
  *
  * This file is part of LambdaCraft.
  *
@@ -20,7 +20,7 @@
  * along with LambdaCraft. If not, see <https://www.gnu.org/licenses/>.
  *
  * Contributors:
- * - [Your Name] <[Your Email]>
+ * - Gilles Grimaud <gilles.grimaud.code@gmail.com>
  */
 
 #include <stdio.h>

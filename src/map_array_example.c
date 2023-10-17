@@ -2,7 +2,7 @@
  * @file map_array_example.c
  * @brief Example of using the map function with an array in LambdaCraft.
  *
- * Copyright (C) 2023 [Votre nom ou le nom de votre organisation]
+ * Copyright (C) 2023 Gilles Grimaud
  *
  * This file is part of LambdaCraft.
  *
@@ -20,7 +20,7 @@
  * along with LambdaCraft. If not, see <https://www.gnu.org/licenses/>.
  *
  * Contributors:
- * - Gilles Grimaud <[Votre email]>
+ * - Gilles Grimaud <gilles.grimaud.code@gmail.com>
  */
 
 #include <stdio.h>
